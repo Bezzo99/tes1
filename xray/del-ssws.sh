@@ -66,4 +66,4 @@ echo "==============================="
 echo "THEKILL XRAY MULTI SHADOWSOCK"
 sleep 2
 clear
-menu-hapus
+menu
