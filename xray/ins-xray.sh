@@ -529,7 +529,7 @@ sleep 1
 wget -q -O /usr/bin/add-ws "https://raw.githubusercontent.com/Bezzo99/tes1/main/xray/add-ws.sh" && chmod +x /usr/bin/add-ws
 wget -q -O /usr/bin/add-vless "https://raw.githubusercontent.com/Bezzo99/tes1/main/xray/add-vless.sh" && chmod +x /usr/bin/add-vless
 wget -q -O /usr/bin/add-tr "https://raw.githubusercontent.com/Bezzo99/tes1/main/xray/add-tr.sh" && chmod +x /usr/bin/add-tr
-wget -q -O /usr/bin/del-ws "https://raw.githubusercontent.com/Bezzo99/tes1/main/xray/del-ws.sh" && chmod +x /usr/bin/del-ws
+wget -q -O /usr/bin/del-user "https://raw.githubusercontent.com/Bezzo99/tes1/main/xray/del-ws.sh" && chmod +x /usr/bin/del-user
 wget -q -O /usr/bin/del-vless "https://raw.githubusercontent.com/Bezzo99/tes1/main/xray/del-vless.sh" && chmod +x /usr/bin/del-vless
 wget -q -O /usr/bin/del-tr "https://raw.githubusercontent.com/Bezzo99/tes1/main/xray/del-tr.sh" && chmod +x /usr/bin/del-tr
 wget -q -O /usr/bin/del-ssws "https://raw.githubusercontent.com/Bezzo99/tes1/main/xray/del-ssws.sh" && chmod +x /usr/bin/del-ssws
