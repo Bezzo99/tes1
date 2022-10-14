@@ -541,7 +541,7 @@ wget -q -O /usr/bin/renew-ws "https://raw.githubusercontent.com/Bezzo99/tes1/mai
 wget -q -O /usr/bin/renew-vless "https://raw.githubusercontent.com/Bezzo99/tes1/main/xray/renew-vless.sh" && chmod +x /usr/bin/renew-vless
 wget -q -O /usr/bin/renew-tr "https://raw.githubusercontent.com/Bezzo99/tes1/main/xray/renew-tr.sh" && chmod +x /usr/bin/renew-tr
 wget -q -O /usr/bin/renew-ssws "https://raw.githubusercontent.com/Bezzo99/tes1/main/xray/renew-ssws.sh" && chmod +x /usr/bin/renew-ssws
-wget -q -O /usr/bin/crtv2ray "https://raw.githubusercontent.com/Bezzo99/tes1/main/xray/crt.sh" && chmod +x /usr/bin/crtv2ray
+wget -q -O /usr/bin/certv2ray "https://raw.githubusercontent.com/Bezzo99/tes1/main/xray/crt.sh" && chmod +x /usr/bin/certv2ray
 wget -q -O /usr/bin/add-ssws "https://raw.githubusercontent.com/Bezzo99/tes1/main/xray/add-ssws.sh" && chmod +x /usr/bin/add-ssws
 sleep 1
 yellow() { echo -e "\\033[33;1m${*}\\033[0m"; }
