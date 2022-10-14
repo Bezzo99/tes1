@@ -281,6 +281,7 @@ netfilter-persistent reload
 cd /usr/bin
 wget -O usernew "https://raw.githubusercontent.com/Bezzo99/tes1/main/ssh/usernew.sh"
 wget -O hapus "https://raw.githubusercontent.com/Bezzo99/tes1/main/ssh/hapus.sh"
+wget -O delete "https://raw.githubusercontent.com/Bezzo99/tes1/main/ssh/delete.sh"
 wget -O member "https://raw.githubusercontent.com/Bezzo99/tes1/main/ssh/member.sh"
 wget -O renew "https://raw.githubusercontent.com/Bezzo99/tes1/main/ssh/renew.sh"
 wget -O cek "https://raw.githubusercontent.com/Bezzo99/tes1/main/ssh/cek.sh"
@@ -307,6 +308,7 @@ wget -O ceklim "https://raw.githubusercontent.com/Bezzo99/tes1/main/ssh/ceklim.s
 chmod +x usernew
 chmod +x menu
 chmod +x hapus
+chmod +x delete
 chmod +x member
 chmod +x renew
 chmod +x cek
