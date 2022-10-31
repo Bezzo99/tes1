@@ -15,6 +15,7 @@ else
 domen=`cat /etc/v2ray/domain`
 fi
 IP=$(curl -sS ifconfig.me);
+#MYIP=$(curl -sS ipinfo.io/ip)
 domen=$(cat /etc/xray/domain)
 NS=$( cat /etc/xray/ns.txt )
 PUB=$( cat /etc/slowdns/server.pub )
@@ -54,8 +55,8 @@ echo -e "\E[0;41;36m            SSH Account            \E[0m" | tee -a /etc/log-
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
 echo -e "Username : $Login" | tee -a /etc/log-create-user.log
 echo -e "Password : $Pass" | tee -a /etc/log-create-user.log
-echo -e "Host Slowdns    : ${NS}" | tee -a /etc/log-create-user.log
-echo -e "Pub Key         : ${PUB}" | tee -a /etc/log-create-user.log
+echo -e "Host Slowdns    : ${NS}"
+echo -e "Pub Key         : ${PUB}"
 echo -e "Expired On : $exp" | tee -a /etc/log-create-user.log
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
 echo -e "IP : $IP" | tee -a /etc/log-create-user.log
@@ -83,8 +84,6 @@ echo -e "\E[0;41;36m            SSH Account            \E[0m" | tee -a /etc/log-
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
 echo -e "Username : $Login" | tee -a /etc/log-create-user.log
 echo -e "Password : $Pass" | tee -a /etc/log-create-user.log
-echo -e "Host Slowdns    : ${NS}" | tee -a /etc/log-create-user.log
-echo -e "Pub Key         : ${PUB}" | tee -a /etc/log-create-user.log
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "IP : $IP" | tee -a /etc/log-create-user.log
 echo -e "Host : $domen" | tee -a /etc/log-create-user.log
